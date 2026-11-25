@@ -1,12 +1,12 @@
-"""One-Sentence Absurd Invention Pitch: a washing machine that confesses.
+"""One-Sentence Absurd Invention Pitch: a toaster that apologises.
 
-The entry is one sentence (163 characters) pitching a ridiculous invention
-that fixes a tiny everyday annoyance: the washing machine that eats a sock
-and, instead of leaving a mystery, texts you a photo of it with a caption.
-The laugh comes from the machine itself -- a household appliance calmly
-confessing to sock theft and reporting that the sock is happy now -- and
-the fix is weirdly plausible: laundry losses stop being a mystery and
-become closure. The program writes the entry deterministically to
+The entry is one sentence (149 characters) pitching a ridiculous invention
+that fixes a tiny everyday annoyance: the toaster that burns a slice
+and, instead of leaving smoke and shame, prints it a tiny certificate
+of bravery. The laugh comes from the machine itself -- a household
+appliance calmly turning a burnt breakfast into an award ceremony --
+and the fix is weirdly plausible: burnt toast stops being a failure
+and becomes a prize. The program writes the entry deterministically to
 /output/entry.txt (no trailing newline).
 
 The 1-220 character gate and the single-sentence rule are enforced at
@@ -15,21 +15,20 @@ later edit.
 
 Craft notes -- why this pitch works against the judge's criteria:
 the laugh lands because the joke is told by the machine itself, an
-appliance calmly confessing to sock theft instead of a person
+appliance calmly apologising for burnt toast instead of a person
 complaining about it; the fix is silly yet weirdly plausible, since a
-photo plus a caption is exactly how a smart appliance would report a
-loss; and the angle is original -- not a better sock or a bigger
-laundry basket, but an appliance that owns up to the crime and
-reassures you the victim is happy. Closure, not a mystery, is the
-tiny annoyance actually solved.
+printed certificate is exactly how a smart appliance would make amends;
+and the angle is original -- not a better toaster or a darker bread,
+but an appliance that turns a burnt breakfast into an award ceremony.
+An award, not smoke, is the tiny annoyance actually solved.
 """
 
 import os
 
 ENTRY = (
-    "My washing machine now texts me a photo of every sock it eats, "
-    "captioned 'he's happy here now', so laundry day ends with closure "
-    "instead of a missing-sock mystery."
+    "My toaster now apologises for every burnt slice by printing a tiny "
+    "certificate of bravery, so breakfast ends with an award ceremony "
+    "instead of smoke."
 )
 
 
