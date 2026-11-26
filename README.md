@@ -4,8 +4,8 @@
 
 # The Apologetic Toaster — "Certificate of Bravery"
 
-A one-sentence entry for the make.fun bounty "One-Sentence Absurd Invention Pitch". The program `main.py` writes the pitch — 149 characters, one sentence — to `/output/entry.txt`.
+A one-sentence entry for the make.fun bounty "One-Sentence Absurd Invention Pitch". The program `main.py` writes the pitch — 125 characters, one sentence — to `/output/entry.txt`.
 
-> My toaster now apologises for every burnt slice by printing a tiny certificate of bravery, so breakfast ends with an award ceremony instead of smoke.
+> A mood-reading kettle that only boils when it senses you actually need tea, and sulks in the corner on days you drink coffee.
 
 Run it with `python3 main.py`. It asserts the entry is 1–220 characters, a single sentence with no leading or trailing whitespace, then writes it with no trailing newline.
