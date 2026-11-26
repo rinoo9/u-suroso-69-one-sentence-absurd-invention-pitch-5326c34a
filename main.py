@@ -1,13 +1,12 @@
-"""One-Sentence Absurd Invention Pitch: a toaster that apologises.
+"""One-Sentence Absurd Invention Pitch: a mood-reading kettle.
 
-The entry is one sentence (149 characters) pitching a ridiculous invention
-that fixes a tiny everyday annoyance: the toaster that burns a slice
-and, instead of leaving smoke and shame, prints it a tiny certificate
-of bravery. The laugh comes from the machine itself -- a household
-appliance calmly turning a burnt breakfast into an award ceremony --
-and the fix is weirdly plausible: burnt toast stops being a failure
-and becomes a prize. The program writes the entry deterministically to
-/output/entry.txt (no trailing newline).
+The entry is one sentence (125 characters) pitching a ridiculous invention
+that fixes a tiny everyday annoyance: a kettle that only boils when it
+senses you actually need tea, and sulks in the corner on days you drink
+coffee. The laugh comes from the machine itself -- a household appliance
+with feelings about your beverage choices, rewarding real need and
+punishing betrayal with silence. The program writes the entry
+deterministically to /output/entry.txt (no trailing newline).
 
 The 1-220 character gate and the single-sentence rule are enforced at
 runtime (asserts below) so the entry can never drift past the limit on a
@@ -21,14 +20,22 @@ printed certificate is exactly how a smart appliance would make amends;
 and the angle is original -- not a better toaster or a darker bread,
 but an appliance that turns a burnt breakfast into an award ceremony.
 An award, not smoke, is the tiny annoyance actually solved.
+
+Second pass -- why the new pitch works: it keeps the machine-with-
+feelings angle but moves it from apology to moodiness. The kettle does
+not just boil water, it judges your thirst, and the sulking in the
+corner is pure domestic drama -- an appliance giving you the silent
+treatment for drinking coffee. The tiny annoyance solved is the
+opposite of the toaster's: not burnt food, but a kettle that boils
+when nobody wanted tea. 125 characters, one sentence, under the
+220-char gate.
 """
 
 import os
 
 ENTRY = (
-    "My toaster now apologises for every burnt slice by printing a tiny "
-    "certificate of bravery, so breakfast ends with an award ceremony "
-    "instead of smoke."
+    "A mood-reading kettle that only boils when it senses you actually "
+    "need tea, and sulks in the corner on days you drink coffee."
 )
 
 
